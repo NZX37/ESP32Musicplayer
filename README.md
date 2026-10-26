@@ -1,3 +1,5 @@
+<img width="1069" height="880" alt="Screenshot 2026-10-25 150953" src="https://github.com/user-attachments/assets/c23f4bd4-bfd5-4011-b819-d7ff9fc9ced0" />
+
 # Mini Music Player
 
 A rechargeable music player built around an ESP32-S3. The design is intended to play music stored on a microSD card and send stereo audio to standard headphones through a 3.5 mm jack. I made it to learn how the digital, audio, charging, PCB, and enclosure parts of a small portable device fit together.
@@ -20,9 +22,13 @@ Open the KiCad project in `PCB/` to inspect or edit the schematic and board. `Mi
 
 ![Mini Music Player PCB layout](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/4a613dc1209c3dc8749f77b8ff9950280e3eab495506b3e4bdd9225b35f10c44.png)
 
+<img width="1084" height="873" alt="Screenshot 2026-10-25 221538" src="https://github.com/user-attachments/assets/f79c91b0-2579-46c0-84c0-dc7c46caa5da" />
+
+
 ### Enclosure model
 
-![3D view of the case and lid](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/eb6a17143430eff194e03bf3eea2d0e0715f57599777651ccee519e5ebebf4b8.png)
+<img width="708" height="559" alt="Screenshot 2026-10-25 215302" src="https://github.com/user-attachments/assets/a1a1f972-bfff-4ead-8e56-4512a2922736" />
+
 
 The case and lid STL files are included. A photo of the physical build will be added after the device has been assembled.
 
@@ -42,7 +48,3 @@ Prices are the estimates recorded during design and may change by seller, region
 | **Listed parts subtotal** |  |  |  | **$66.33** |  |
 
 The schematic also contains a TP4056 charger, TPA6132A2 headphone amplifier, microSD socket, and other passives/connectors. Their individual purchase links and prices are not present in the current `BOM.csv`, so the subtotal is incomplete. Check `BOM.csv` for the source list and update it as these costs are confirmed.
-
-## Build status
-
-The schematic, PCB layout, STEP model, and enclosure meshes are available in this repository. Firmware, assembly instructions, a hand-wiring diagram, and real-device photos have not been added yet. If you build the design, verify the PCB against the schematic and check all battery and power connections before inserting a cell.
